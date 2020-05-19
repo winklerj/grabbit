@@ -51,7 +51,7 @@ jar.manifest {
     instruction 'Import-Package', 'org.springframework.aop.scope; version="[3.1,4.0)"'
     instruction 'Import-Package', 'org.springframework.scheduling.concurrent; version="[3.1,4.0)"'
     instruction 'Import-Package', "org.aopalliance.aop;version=1.0.0"
-    instruction 'Import-Package', "sun.misc"
+    instruction 'Import-Package', "sun.misc;resolution:=optional"
     instruction 'Import-Package', '*'
 
     // export everything to OSGi except *.impl packages
